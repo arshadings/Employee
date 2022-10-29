@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+    </li>
+  </ul>
+  
+  <a routerLink="employees" class="title"><h3>{{ title }}</h3></a>
+</nav>
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
+<footer class="fixed-bottom footer bg-primary">
+  <div class="container">
+    <span>Developed by Arshad Hussain</span>
+  </div>
+</footer>
